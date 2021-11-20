@@ -3124,7 +3124,6 @@ const onPlay = time => localStorage.setItem("videoplayer-current-time", time.sec
 const currentTime = localStorage.getItem("videoplayer-current-time");
 currentTime ? player.setCurrentTime(currentTime) : null;
 player.on('timeupdate', (0, _lodash.default)(onPlay, 1000));
-player.off('timeupdate');
 },{"@vimeo/player":"../node_modules/@vimeo/player/dist/player.es.js","lodash.throttle":"../node_modules/lodash.throttle/index.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
