@@ -37,7 +37,3 @@ function onResetPage() {
         });
     }
 }
-
-// (currentLocalStorage) ? inputRef = currentLocalStorage.email && textAreaRef = currentLocalStorage.message : null
-
-
